@@ -1,0 +1,19 @@
+{
+  "name": "Minecraft Bedrock Server",
+  "image": "ubuntu:22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "18"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.10"
+    }
+  },
+  "forwardPorts": [19132, 3000],
+  "postCreateCommand": "chmod +x setup.sh && ./setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.vscode-json", "bradlc.vscode-tailwindcss"]
+    }
+  }
+}
