@@ -12,8 +12,8 @@ npm install
 # Download Minecraft Bedrock Server
 mkdir -p minecraft-server
 cd minecraft-server
-wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.81.01.zip
-unzip bedrock-server-1.20.81.01.zip
+wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.21.84.1.zip
+unzip bedrock-server-1.21.84.1.zip
 chmod +x bedrock_server
 cd ..
 
