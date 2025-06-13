@@ -1,1 +1,12 @@
+// filepath: .gitignore
+node_modules/
 .env
+logs/
+backups/
+minecraft-server/worlds/
+minecraft-server/behavior_packs/
+minecraft-server/resource_packs/
+minecraft-server/bedrock_server
+minecraft-server/*.zip
+*.log
+.DS_Store
